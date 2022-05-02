@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/techno-haggadah/static/css/main.808261f1.css",
-    "main.js": "/techno-haggadah/static/js/main.cafa8c55.js",
+    "main.css": "/techno-haggadah/static/css/main.0db782df.css",
+    "main.js": "/techno-haggadah/static/js/main.6af10fdb.js",
     "static/media/PPMondwest-Regular.otf": "/techno-haggadah/static/media/PPMondwest-Regular.ce30e67f1fe842818af2.otf",
     "static/media/PPNeueBit-Regular.otf": "/techno-haggadah/static/media/PPNeueBit-Regular.4d54e6cdc5f3e06b5eef.otf",
     "static/media/noun-image-4793556.png": "/techno-haggadah/static/media/noun-image-4793556.98b0869b43be79946fee.png",
     "static/media/noun-eraser-4789777.png": "/techno-haggadah/static/media/noun-eraser-4789777.09ed3933b48f9f35af72.png",
     "index.html": "/techno-haggadah/index.html",
-    "main.808261f1.css.map": "/techno-haggadah/static/css/main.808261f1.css.map",
-    "main.cafa8c55.js.map": "/techno-haggadah/static/js/main.cafa8c55.js.map"
+    "main.0db782df.css.map": "/techno-haggadah/static/css/main.0db782df.css.map",
+    "main.6af10fdb.js.map": "/techno-haggadah/static/js/main.6af10fdb.js.map"
   },
   "entrypoints": [
-    "static/css/main.808261f1.css",
-    "static/js/main.cafa8c55.js"
+    "static/css/main.0db782df.css",
+    "static/js/main.6af10fdb.js"
   ]
 }
