@@ -1,0 +1,96 @@
+
+.Editor {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.Page-Panels-Cont{
+    display: flex;
+}
+
+.Side-Panel {
+    width: 200px;
+    background-color: red;
+    position: relative;
+}
+
+.Tool-Button-Cont{
+    position: absolute;
+    right: 0px;
+    top: -200px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Tool-Button-Cont > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.Tool-Button-Cont > div > button {
+    margin: 8px;
+    /* background: white; */
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Tool-Button-Cont > div > button:hover {
+    color: white;
+    background: black;
+    /* background: none; */
+}
+
+.Tool-Button-Cont > div > button:active{
+    color: var(--accent);
+
+}
+
+.Active-Tool {
+    background-color: var(--accent);
+    /* background: black; */
+    color: white;
+}
+
+.Active-Tool:hover {
+    color: var(--accent);
+    border-color: var(--accent)
+}
+
+
+
+.Nav-Arrow {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px 12px 8px 12px;
+}
+
+.Nav-Arrow:hover {
+    background-color: white;
+    color: black
+}
+
+.Home-Button {
+    border: none;
+    background: none;
+    color: var(--accent);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.Home-Button > h3 > i {
+    font-family: 'Mondwest';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0px 2px;
+}
