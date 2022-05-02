@@ -34,11 +34,13 @@ function TextLayer({textSectionState, layer, freshLayer, textStartState, textLen
 
             switch(splitString[0]){
                 case 'BU':
-                    return <p style={textStyle} className='BU-Text' key={i}>{splitString[1]}</p>
+                    return <p style={textStyle} className='BU-Text' key={i}>{splitString[1]}</p>;
                 case 'B':
                     return <p style={textStyle}  className='B-Text' key={i}>{splitString[1]}</p>
                 case 'I':
                     return <p style={textStyle} className='I-Text' key={i}>{splitString[1]}</p>
+                case 'H':
+                    return <p style={textStyle} className='H-Text' key={i}>{splitString[1]}</p>
                 default:
                     return <p style={textStyle}  key={i}>{splitString[1]}</p>
 

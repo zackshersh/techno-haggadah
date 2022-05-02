@@ -23,7 +23,7 @@ export class ImageElement{
         this.y = y;
         this.w = 300;
         this.index = index;
-        this.contentID = "https://media0.giphy.com/media/1yiNv0xauBg8SHLAJT/giphy.gif?cid=ecf05e473ac3848b0868af7286451ff256255c291b5fc846&rid=giphy.gif&ct=g";
+        this.contentID = "https://www.colorhexa.com/e6e6e6.png";
         this.visible = true;
         this.page = page;
     }
